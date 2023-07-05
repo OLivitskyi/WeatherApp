@@ -1,2 +1,5 @@
 def app = new WeatherApp()
-app.run()
+def city = "Kyiv"
+def weather = app.getWeatherForCity(city)
+println "Температура в ${city}: ${weather.temperature}"
+println "Рекомендація щодо одягу: ${app.recommendClothing(weather)}"

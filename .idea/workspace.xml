@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a7cb4d-3034-4a92-bdfc-fd1cde669bee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/WeatherApp.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" afterDir="false" />
+    <list default="true" id="86a7cb4d-3034-4a92-bdfc-fd1cde669bee" name="Changes" comment="Inital">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/api/OpenCageApiClient.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/api/OpenMeteoApiClient.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/constants/Constants.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/models/Location.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/models/Weather.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/WeatherApp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/WeatherApp.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +83,30 @@
       <option name="presentableId" value="Default" />
       <updated>1688564013538</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inital">
+      <created>1688568607479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688568607479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Inital" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inital" />
   </component>
 </project>
