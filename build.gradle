@@ -1,5 +1,7 @@
 plugins {
     id 'groovy'
+    id 'application'
+    id 'org.springframework.boot' version '2.5.4'
 }
 
 group 'org.example'
@@ -12,8 +14,13 @@ repositories {
 dependencies {
     implementation 'org.codehaus.groovy:groovy-all:3.0.18'
     implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.5.4'
 }
 
-test {
-    useJUnitPlatform()
+application {
+    mainClassName = 'app.WeatherApp'
+}
+
+application {
+    mainClassName = 'app.WeatherApp'
 }

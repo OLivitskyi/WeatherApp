@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a7cb4d-3034-4a92-bdfc-fd1cde669bee" name="Changes" comment="Inital">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/api/OpenCageApiClient.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/api/OpenMeteoApiClient.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/constants/Constants.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/models/Location.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/models/Weather.groovy" afterDir="false" />
+    <list default="true" id="86a7cb4d-3034-4a92-bdfc-fd1cde669bee" name="Changes" comment="Restructure and rework">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/config/HttpClientConfig.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/controllers/WeatherController.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/services/WeatherService.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/groovy/WeatherApp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/WeatherApp.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/api/OpenCageApiClient.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/api/OpenCageApiClient.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/api/OpenMeteoApiClient.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/api/OpenMeteoApiClient.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +47,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.WeatherApp">
+    <configuration name="WeatherApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.WeatherApp" />
+      <module name="WeatherApp.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WeatherApp" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="WeatherApp.main" />
       <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" />
@@ -70,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherApp" />
         <item itemvalue="Groovy.WeatherApp" />
       </list>
     </recent_temporary>
@@ -90,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688568607479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Restructure and rework">
+      <created>1688574372213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688574372213</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Inital" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inital" />
+    <MESSAGE value="Restructure and rework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructure and rework" />
   </component>
 </project>
