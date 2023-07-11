@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a7cb4d-3034-4a92-bdfc-fd1cde669bee" name="Changes" comment="Add functional for connection timeouts">
+    <list default="true" id="86a7cb4d-3034-4a92-bdfc-fd1cde669bee" name="Changes" comment="Add functional for connection timeouts settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/WeatherApp.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/api/WeatherApp.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/WeatherAppRunner.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688713928668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add functional for connection timeouts settings">
+      <created>1689001320547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689001320547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +152,7 @@
     <MESSAGE value="Inital" />
     <MESSAGE value="Restructure and rework" />
     <MESSAGE value="Add functional for connection timeouts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add functional for connection timeouts" />
+    <MESSAGE value="Add functional for connection timeouts settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add functional for connection timeouts settings" />
   </component>
 </project>

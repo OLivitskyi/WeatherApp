@@ -5,19 +5,21 @@ import org.springframework.boot.web.client.RestTemplateBuilder
 import org.springframework.http.HttpStatus
 import org.springframework.web.client.HttpClientErrorException
 
+import java.time.Duration
+
 class WeatherAppRunner {
 
     static void main(String[] args) {
         WeatherApp.main(args)
 
         def restTemplate = new RestTemplateBuilder()
-                .setConnectTimeout(5000)
-                .setReadTimeout(10000)
+                .setConnectTimeout(Duration.ofMillis(5000)) // Тайм-аут на підключення (мс)
+                .setReadTimeout(Duration.ofMillis(10000)) // Тайм-аут на читання (мс)
                 .build()
         def url = "http://localhost:8080/weather?city=Kyiv"
 
         try {
-            Thread.sleep(5000)
+            Thread.sleep(15000)
 
             def response = restTemplate.getForEntity(url, String.class)
 
