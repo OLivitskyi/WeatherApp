@@ -13,8 +13,8 @@ class WeatherAppRunner {
         WeatherApp.main(args)
 
         def restTemplate = new RestTemplateBuilder()
-                .setConnectTimeout(Duration.ofMillis(5000)) // Тайм-аут на підключення (мс)
-                .setReadTimeout(Duration.ofMillis(10000)) // Тайм-аут на читання (мс)
+                .setConnectTimeout(Duration.ofMillis(500))
+                .setReadTimeout(Duration.ofMillis(100))
                 .build()
         def url = "http://localhost:8080/weather?city=Kyiv"
 
